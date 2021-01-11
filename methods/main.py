@@ -74,7 +74,9 @@ if __name__ == '__main__':
 
     from tensorflow.keras.models import load_model
     model = load_model('m.h5')
-    clean_frames_folder()
+
+    os.mkdir('frames')  # to save frames extracted from video
+    os.mkdir("to save video made from frames with boxes")
 
     # convert video from this
     # directory with the name
