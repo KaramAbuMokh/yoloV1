@@ -78,7 +78,7 @@ if __name__ == '__main__':
     model = load_model('m.h5')
 
     os.mkdir('frames')  # to save frames extracted from video
-    os.mkdir("to save video made from frames with boxes")
+    os.mkdir("stream")# to save video made from frames with boxes
 
     # convert video from this
     # directory with the name
